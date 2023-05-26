@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, sans-serif; }
+
+.mat-toolbar{
+  background-color:rgb(68, 255, 0);
+}
+.flex{
+  display:flex;
+}
+
+.justify-content-between{
+  justify-content:space-between;
+}

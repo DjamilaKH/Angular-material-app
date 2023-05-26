@@ -1,0 +1,16 @@
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+mat-card{
+  margin: 200px;padding: 40px;
+width: 50%;
+}
+mat-card-title{
+  margin-left: 20px;
+}
+mat-card-subtitle{
+  margin-left: 20px;
+
+}

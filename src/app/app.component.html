@@ -1,0 +1,21 @@
+ 
+ 
+ <mat-toolbar color="primary"class ="flex 
+   
+  justify-content-between">Ng Mat
+  <a routerLink="/blog" mat-stroked-button color="whit" class="Blogs">Blogs</a>
+  
+  <div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">    <mat-icon  matBadge="15" style="margin-right: 15px"matBadgeColor="accent">notifications</mat-icon>
+    <mat-menu #menu="matMenu">
+  <button mat-menu-item>You freind got new card</button>
+  <button mat-menu-item>Say happy birdhay to Salma</button>
+</mat-menu></button>
+
+
+      <a routerLink="/login" mat-stroked-button color="whit" >Login</a>
+  </div>
+ 
+ </mat-toolbar>
+ 
+<router-outlet></router-outlet>
